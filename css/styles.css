@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Roboto:wght@700&display=swap');
+
+/* CSS Reset */
+*,
+*::after,
+*::before {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+html {
+
+    font-size: 62.5%;
+    height: 100%;
+    font-family: Roboto;
+    letter-spacing: .02em;
+}
+
+body {  
+
+    display: flex;
+    flex-direction: column
+}
+
+main {
+
+   margin-top: 15vh;
+
+}
+
+/* Header */
+
+header {
+
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(25, 180, 180);
+    position: fixed;
+
+}
+
+#header-title { 
+
+    width: 70%;
+
+}
+
+
+.header-content nav ul {
+
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+   margin-top: 5vh;
+
+}
+
+.header-content {
+
+    display: flex;
+
+}
+
+.header-content nav {
+
+    width: 30%;
+    color: #fff;
+   
+}
+
+a:link, a:visited {
+
+    text-decoration: none;
+    
+   }
+
+
+.header-content a {
+
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+
+/* Fonts */
+
+h1 {
+
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: 1.7%;
+    margin-top: 3%;
+    letter-spacing: .03em;
+    font-size: 2em;
+    text-transform: uppercase;
+
+}
+
+h2 {
+
+    list-style: none;
+    text-decoration: none;
+    color: rgba(56, 70, 83, 0.5);
+    font-size: 1em;
+}
+
+h3 {
+
+    list-style: none;
+    text-decoration: none;
+    color: rgb(25, 180, 180);
+}
+
+
+/* Intro Section */
+
+/* section#intro-section {
+    height: 7vh;
+    font-size: 24pt;
+    text-align: center;
+    position: sticky;
+    margin-top: 5%;
+
+} */
+
+/* About Section */
+
+#about-section {
+    
+    background-color: rgb(42, 245, 225);
+    padding-left: 2%;
+    height: 30vh;
+
+    padding-top: 1.5em;
+
+}
+
+#work-section {
+
+    background-color: rgb(105, 253, 236);
+    padding-left: 2%;
+    height: 30vh;
+    padding-top: .5em;
+
+}
+
+#contact-section {
+
+    background-color:rgb(142, 252, 241);
+    padding-left: 2%;
+    height: 30vh;
+    padding-top: .5em;
+
+}
+
+/* Footer */
+
+footer {
+
+    background-color: rgb(25, 180, 180);
+    display: flex;
+    flex-direction: column;
+
+}
+
+#stickyfooter {
+
+    width: 100%;
+    
+}
+
+footer ul li {
+
+    color: #fff;
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+
+}
+
+/* ___________Resposive___________ */
+
+* desktop */
+@media screen and (min-width: 1280px) {
+    #desktop {
+        display: block;
+    }
+
+    #small-desktop,
+    #tablet,
+    #smartphone {
+        display: none;
+    }
+}
+
+/* small desktop (769px - 1279px) */
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+    #small-desktop {
+        display: block;
+    }
+
+    #desktop,
+    #tablet,
+    #smartphone {
+        display: none;
+    }
+}
+
+/* tablet (481px - 768px) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    #tablet {
+        display: block;
+    }
+
+    #desktop,
+    #small-desktop,
+    #smartphone {
+        display: none;
+    }
+
+    #container {
+        grid-template-areas: 
+        "header         header"
+        "aside          main"
+        "section-left   section-right"
+        "footer         footer";
+    
+        grid-template-columns: repeat(2, 4fr);
+        /* grid-template-rows: repeat(4, 1fr); */
+    }
+}
+
+/* smartphone (0px - 480px) */
+@media screen and (max-width: 480px) {
+    #smartphone {
+        display: block;
+    }
+
+    #desktop,
+    #small-desktop,
+    #tablet {
+        display: none;
+    }
+
+    #container {
+        display: block;
+    }
+}
+
+/* Print Regel: Wird nur angezeigt, wenn gedruckt wird */
+@media print {
+    #print-div {
+        display: block;
+    }
