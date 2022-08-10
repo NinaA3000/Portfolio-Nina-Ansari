@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Roboto:wght@100;300;500;700&display=swap');
 
 /* CSS Reset */
 *,
@@ -21,7 +20,7 @@ html {
     letter-spacing: .02em;
 }
 
-body {  
+body {
 
     display: flex;
     flex-direction: column
@@ -29,86 +28,19 @@ body {
 
 main {
 
-   margin-top: 15vh;
-
-}
-
-/* Header */
-
-header {
-
-    width: 100%;
-    height: 15vh;
-    background-color: rgb(25, 180, 180);
-    position: fixed;
-
-}
-
-#header-title { 
-
-    width: 70%;
+    margin-top: 15vh;
 
 }
 
 
-.header-content nav ul {
-
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-   margin-top: 5vh;
-
-}
-
-.header-content {
-
-    display: flex;
-
-}
-
-.header-content nav {
-
-    width: 30%;
-    color: #fff;
-   
-}
-
-a:link, a:visited {
-
-    text-decoration: none;
-    
-   }
-
-
-.header-content a {
-
-    display: flex;
-    justify-content: space-between;
-    color: #fff;
-}
-
-
-/* Fonts */
-
-h1 {
-
-    list-style: none;
-    text-decoration: none;
-    color: aliceblue;
-    padding-left: 1.7%;
-    margin-top: 3%;
-    letter-spacing: .03em;
-    font-size: 2em;
-    text-transform: uppercase;
-
-}
 
 h2 {
 
     list-style: none;
     text-decoration: none;
     color: rgba(56, 70, 83, 0.5);
-    font-size: 1em;
+    font-size: 2em;
+
 }
 
 h3 {
@@ -118,76 +50,39 @@ h3 {
     color: rgb(25, 180, 180);
 }
 
+/* ---Helper--- */
 
-/* Intro Section */
+.white-button-frame {
+    width: 40px;
+    height: 20px;
 
-/* section#intro-section {
-    height: 7vh;
-    font-size: 24pt;
+    background-color: white;
+    color: turquoise;
+
+    border-radius: 25px;
+    padding: .4em;
+
     text-align: center;
-    position: sticky;
-    margin-top: 5%;
-
-} */
-
-/* About Section */
-
-#about-section {
-    
-    background-color: rgb(42, 245, 225);
-    padding-left: 2%;
-    height: 30vh;
-
-    padding-top: 1.5em;
 
 }
 
-#work-section {
-
-    background-color: rgb(105, 253, 236);
-    padding-left: 2%;
-    height: 30vh;
-    padding-top: .5em;
-
-}
-
-#contact-section {
-
-    background-color:rgb(142, 252, 241);
-    padding-left: 2%;
-    height: 30vh;
-    padding-top: .5em;
+.white-button-frame span {
+    margin-right: center;
+    font-size: .8em;
+    font-weight: bolder;
+    letter-spacing: .1em;
 
 }
 
-/* Footer */
 
-footer {
 
-    background-color: rgb(25, 180, 180);
-    display: flex;
-    flex-direction: column;
 
-}
 
-#stickyfooter {
 
-    width: 100%;
-    
-}
 
-footer ul li {
+/* Mediaqueries */
 
-    color: #fff;
-    display: flex;
-    justify-content: end;
-    text-decoration: none;
-
-}
-
-/* ___________Resposive___________ */
-
-* desktop */
+/* * desktop */
 @media screen and (min-width: 1280px) {
     #desktop {
         display: block;
@@ -225,17 +120,9 @@ footer ul li {
         display: none;
     }
 
-    #container {
-        grid-template-areas: 
-        "header         header"
-        "aside          main"
-        "section-left   section-right"
-        "footer         footer";
-    
-        grid-template-columns: repeat(2, 4fr);
-        /* grid-template-rows: repeat(4, 1fr); */
-    }
 }
+
+
 
 /* smartphone (0px - 480px) */
 @media screen and (max-width: 480px) {
@@ -249,13 +136,36 @@ footer ul li {
         display: none;
     }
 
-    #container {
-        display: block;
-    }
-}
 
-/* Print Regel: Wird nur angezeigt, wenn gedruckt wird */
-@media print {
-    #print-div {
-        display: block;
+
+    .header-content a {
+        font-size: .7em;
+        margin-left: 10%;
+
     }
+
+
+    .header-content {
+
+        flex-direction: column;
+
+
+
+    }
+
+    .header-content nav {
+
+        width: 100%;
+
+    }
+
+
+
+    h1 {
+        font-size: 3em;
+        margin-left: 15%;
+        letter-spacing: 1em;
+       
+    }
+
+}

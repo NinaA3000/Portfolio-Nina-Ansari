@@ -1,0 +1,78 @@
+/* Header */
+
+header {
+
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(25, 180, 180);
+    position: fixed;
+
+}
+
+#header-title {
+
+    width: 70%;
+
+}
+
+
+.header-content nav ul {
+
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5vh;
+
+}
+
+.header-content {
+
+    display: flex;
+
+
+
+}
+
+.header-content nav {
+
+    width: 30%;
+    color: #fff;
+    font-size: 1.9em;
+    letter-spacing: .08em;
+    font-weight: 300;
+
+
+}
+
+a:link,
+a:visited {
+
+    text-decoration: none;
+
+}
+
+
+.header-content a {
+
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+
+}
+
+
+/* Fonts */
+
+h1 {
+
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: 2.7%;
+    margin-top: 2%;
+    letter-spacing: .03em;
+    font-size: 4.7em;
+    text-transform: uppercase;
+    font-weight: 300;
+
+}

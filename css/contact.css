@@ -1,0 +1,20 @@
+#contact-section {
+
+    background-color: rgb(142, 252, 241);
+    padding-left: 2%;
+    height: 30vh;
+    padding-top: .5em;
+    margin: .5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+#contact-section h2 {
+    font-weight: 300;
+}
+
+#contact-section h3 {
+    font-weight: 300;
+}
