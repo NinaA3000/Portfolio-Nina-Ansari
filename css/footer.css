@@ -28,3 +28,24 @@ footer ul li {
     font-weight: 300;
 
 }
+
+#sticky-footer ul li:hover {
+
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+
+#hover-effect::before{
+	content:"\f08c";
+    font-family: "FontAwesome";
+    color: #fff;
+}
+
+#hover-effect:hover::before{
+	content:"\f08c";
+    font-family: "FontAwesome";
+    color: #fff;
+}

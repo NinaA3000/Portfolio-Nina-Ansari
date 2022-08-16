@@ -17,13 +17,15 @@ html {
     font-size: 62.5%;
     height: 100%;
     font-family: Roboto;
-    letter-spacing: .02em;
+
 }
 
 body {
 
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    letter-spacing: .1em;
+
 }
 
 main {
@@ -41,41 +43,78 @@ h2 {
     color: rgba(56, 70, 83, 0.5);
     font-size: 2em;
 
+
 }
 
 h3 {
 
     list-style: none;
     text-decoration: none;
-    color: rgb(25, 180, 180);
+    color:rgba(56, 70, 83, 0.5);
+    font-size: 1.3em;
+
+}
+
+p {
+
+    color: rgba(56, 70, 83, 0.5);
+    font-size: 1.7em;
+    font-weight: 300;
+    width: 90%;
+
 }
 
 /* ---Helper--- */
 
 .white-button-frame {
+
+   
+   background-color:  rgb(25, 180, 180);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    color: white;
+
     width: 40px;
     height: 20px;
-
-    background-color: white;
-    color: turquoise;
-
     border-radius: 25px;
     padding: .4em;
 
-    text-align: center;
+   
+}
+
+.white-button-frame {
+
 
 }
 
-.white-button-frame span {
-    margin-right: center;
-    font-size: .8em;
-    font-weight: bolder;
-    letter-spacing: .1em;
-
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
 }
 
 
+         
+.btn-grad {
+  background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
 
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
 
 
 
@@ -149,8 +188,6 @@ h3 {
 
         flex-direction: column;
 
-
-
     }
 
     .header-content nav {
@@ -165,7 +202,7 @@ h3 {
         font-size: 3em;
         margin-left: 15%;
         letter-spacing: 1em;
-       
+
     }
 
 }

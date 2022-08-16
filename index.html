@@ -15,21 +15,37 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/contact.css">
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
 
     <header>
         <div class="header-content">
-            <a href="#" id="header-title">
+            <a href="./index.html" id="header-title">
                 <h1>Nina Ansari</h1>
             </a>
 
             <nav>
                 <ul>
-                    <li><a href="#work-section">work</a></li>
-                    <li><a href="#about-section">about</a></li>
-                    <li><a href="#contact-section">contact</a></li>
+                    <li class="dropdown-menu"><a href="#work-section">work</a>
+                        <ul class="nav-dropdown-menu-work">
+                            <li><a href="./work.html">Desing</a></li>
+                            <li>Photography</li>
+                            <li>Sketches</li>
+                            <li>Teaching</li>
+
+                        </ul>
+
+                    </li>
+
+                    <li><a href="./about.html">about</a></li>
+                    <li><a href="./contact.html">contact</a></li>
 
                 </ul>
             </nav>
@@ -45,25 +61,93 @@
 
         <section id="about-section">
             <h2>about</h2>
-            <h3>Graphic Designer Web-Developer</h3>
-            <a href="#">
-                <div class="white-button-frame">
-                    <span>more</span></i>
+            
+            <div class="text-about-nina-ansari">
+                <div>
+                    <h3>Graphic Designer / Artist / Web-Developer</h3>
+
+                <p> 
+                    Nina Ansari is a Graphic Designer/Web-Developer with a skill-set in a production art, brand/idententy
+                    design and dynamic website design. Well versed in marketing campaings and project managment.
+                    Attentive to typography, color theory, layout/composition, as well as accessibility and usability
+                    issues. Familiar with frameworks, HTML, CSS, Wordpress, Photoshop, InDesign and Illustrator.
+                    She has a passion for teaching. She speaks english, german and farsi and lives in Berlin.
+
+                    <!-- Trained in photography, painting and film at the HfG Academy of Art and Design in Offenbach am Main,
+                    Nina Ansari developed a varied practice including book and installation to further investigate the
+                    different kinds of artistic expression and media. Through sophisticated systems, we discover her
+                    attraction to the idea of the individual in the modern society and their unique characteristics, in
+                    particular, the concept of identity as an area of contact between the self and the Other. Born in
+                    1981
+                    Teheran/ Iran. Lives in Berlin.
+                    Nina Ansari´s Œuvre ist vielschichtig und umfasst die Medien Fotografie, Film, Installation und
+                    Malerei.
+                    Die 1981 in Teheran geborene Künstlerin thematisiert in ihren Arbeiten immer wieder
+                    autobiographische
+                    Erinnerungen. Durch ausgeklügelte Systeme, entdecken wir ihre Anziehungskraft auf die Idee des
+                    Individuums in der modernen Gesellschaft und ihren einzigartigen Eigenschaften, insbesondere der
+                    Begriff
+                    der Identität als einen Raum der Kontakt zwischen dem Selbst und dem Anderen. Sie lebt in Berlin. -->
+                </p>
+                    <a href="#">
+                        <div class="white-button-frame">
+                            <span>more</span>
+                        </div>
+                    </a>
+
                 </div>
-            </a>
+
+                <div>
+                    <img src="../img/nina-ansari-portrait-internet.jpg" alt="Portrait von Nina Ansari">
+                </div>
+            </div>
 
         </section>
 
 
         <section id="work-section">
             <h2>work</h2>
-            <h3>Desing</h3>
-            <h3>Photography</h3>
-            <h3>Sketches</h3>
-            <h3>Teaching</h3>
+
+            <div class="work-container">
+                <div><img src="./img/erdbeermondcopyright-ninaansariwp-2-1.jpg" alt=""></div>
+                <h3>Desing</h3>
+            </div>
+
+            <div class="work-container">
+                <div><img src="./img/erdbeermondcopyright-ninaansariwp-2-1.jpg" alt=""></div>
+                <h3>Photography</h3>
+            </div>
+
+
+            <div class="work-container">
+                <div><img src="./img/erdbeermondcopyright-ninaansariwp-2-1.jpg" alt=""></div>
+                <h3>Sketches</h3>
+            </div>
+
+
+            <div class="work-container">
+                <div><img src="./img/erdbeermondcopyright-ninaansariwp-2-1.jpg" alt=""></div>
+                <h3>Teaching</h3>
+            </div>
+
+            <div class="work-container">
+                <h2>Clients</h2><br>
+                <h3>Staatliche Museen zu Berlin</h3><br>
+                <h3>Zeitbild Stiftung</h3><br>
+                <h3>solidrockIt</h3><br>
+                <h3>Jugentheaterburo Berlin</h3><br>
+                <h3>Rhein-Main-Verkehrsverbund</h3><br>
+                <h3>Pukka Design</h3><br>
+                <h3>Vattenfall</h3><br>
+                <h3>Intellego</h3><br>
+                <h3>Hoffbauer Fachhochschule Postdam</h3><br>
+                <h3>Finacial Dynamics</h3><br>
+
+            </div>
+
             <a href="#">
                 <div class="white-button-frame">
-                    <span>more</span></i>
+                    <span>more</span>
                 </div>
             </a>
         </section>
@@ -71,19 +155,43 @@
 
 
         <section id=contact-section>
-            <h2>contact</h2>
-            <h3>Lets get in touch</h3>
-            <a href="mailto:contact@ninaansari.com">contact@ninaansari.com</a>
+            <div>
+                <h2>contact</h2>
+
+                <a href="mailto:contact@ninaansari.com">contact@ninaansari.com</a>
+            </div>
+            <form>
+                <fieldset>
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+                </fieldset>
+                <fieldset>
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+                </fieldset>
+                <fieldset>
+                    <label for="text">Message</label>
+                    <textarea name="Message" id="text" cols="30" rows="3"></textarea>
+                </fieldset>
+                <button class="white-button-frame" id="font-button">
+                    <h3>Enter</h3>
+                </button>
+
+
+            </form>
         </section>
 
 
 
     </main>
 
-    <footer id="stickyfooter">
+    <footer id="sticky-footer">
         <ul>
             <li><a href="#"></a>Impressum</li>
             <li><a href="#"></a>Rechtliche Hinweise</li>
+            <li> 
+              <a href="https://de.linkedin.com/in/nina-ansari-a8469a53" id="hover-effect"></a>
+            </li>
 
         </ul>
     </footer>
