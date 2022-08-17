@@ -36,7 +36,7 @@ main {
 
 
 
-h2 {
+/* h2 {
 
     list-style: none;
     text-decoration: none;
@@ -51,25 +51,26 @@ h3 {
     list-style: none;
     text-decoration: none;
     color:rgba(56, 70, 83, 0.5);
-    font-size: 1.3em;
+    font-size: 2.3em;
+    margin-top:  1em;
 
-}
+} */
 
-p {
+/* p {
 
     color: rgba(56, 70, 83, 0.5);
     font-size: 1.7em;
     font-weight: 300;
     width: 90%;
 
-}
+} */
 
 /* ---Helper--- */
 
 .white-button-frame {
 
-   
-   background-color:  rgb(25, 180, 180);
+
+    background-color: rgb(25, 180, 180);
     margin: 10px;
     padding: 15px 45px;
     text-align: center;
@@ -80,42 +81,41 @@ p {
     border-radius: 25px;
     padding: .4em;
 
-   
-}
-
-.white-button-frame {
-
 
 }
+
+/* .white-button-frame {}
 
 .btn-grad:hover {
-  background-position: right center; /* change the direction of the change here */
-  color: #fff;
-  text-decoration: none;
+    background-position: right center;
+ 
+    color: #fff;
+    text-decoration: none;
 }
 
 
-         
+
 .btn-grad {
-  background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%);
-  margin: 10px;
-  padding: 15px 45px;
-  text-align: center;
-  text-transform: uppercase;
-  transition: 0.5s;
-  background-size: 200% auto;
-  color: white;            
-  box-shadow: 0 0 20px #eee;
-  border-radius: 10px;
-  display: block;
+    background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff 51%, #ff6e7f 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
 }
 
 .btn-grad:hover {
-  background-position: right center; /* change the direction of the change here */
-  color: #fff;
-  text-decoration: none;
+    background-position: right center;
+  
+    color: #fff;
+    text-decoration: none;
 }
-
+ */
 
 
 
@@ -195,7 +195,6 @@ p {
         width: 100%;
 
     }
-
 
 
     h1 {

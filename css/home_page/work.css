@@ -1,0 +1,45 @@
+#work-section {
+
+    background-color: rgb(105, 253, 236);
+    padding-left: 2%;
+    height: 30vh;
+    padding-top: .5em;
+
+    display: flex;
+    margin: .5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.work-clients {
+    font-size: 20%;
+}
+
+.work-container div {
+    object-fit: cover;
+    height: 40%;
+}
+
+.work-container  {
+    object-fit: cover;
+    height: 40%;
+}
+
+.work-container {
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+img {   
+    height: 100%;
+}
+
+.work-container h2, h3 {
+    font-weight: 100;
+}

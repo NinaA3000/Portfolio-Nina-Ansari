@@ -1,0 +1,18 @@
+/* About Section */
+
+#about-section {
+
+    background-color: rgb(42, 245, 225);
+    padding-left: 2%; 
+  padding-right: 2%; 
+    height: 81vh; 
+    padding-top: 1.5em;
+    margin: .5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+

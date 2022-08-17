@@ -37,15 +37,17 @@ footer ul li {
     text-decoration: none;
 }
 
-
-#hover-effect::before{
+ 
+#hover-effect::before {
 	content:"\f08c";
     font-family: "FontAwesome";
     color: #fff;
+    font-size: 10pt;
 }
 
 #hover-effect:hover::before{
 	content:"\f08c";
     font-family: "FontAwesome";
     color: #fff;
+    font-size: 10pt;
 }

@@ -2,7 +2,7 @@
 
     background-color: rgb(142, 252, 241);
     padding-left: 2%;
-    height: 30vh;
+    height: 20vh;
     padding-top: .5em;
     margin: .5em;
     display: flex;
@@ -48,8 +48,14 @@ textarea {
     font-size: 1em;
 }
 
-#contact-section>div:first-child {
+#contact-section > div:first-child {
 
     margin-left: 8vh;
+
+}
+
+#contact-section a {
+
+    margin-right: 30vh;
 
 }

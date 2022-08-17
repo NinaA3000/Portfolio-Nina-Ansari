@@ -1,0 +1,61 @@
+#contact-section {
+
+    background-color: rgb(142, 252, 241);
+    padding-left: 2%;
+    height: 81vh;
+    padding-top: .5em;
+    margin: .5em;
+    display: flex;
+
+    align-items: center;
+
+}
+
+#contact-section h2 {
+    font-weight: 300;
+}
+
+#contact-section h3 {
+    font-weight: 300;
+}
+
+form fieldset {
+    display: flex;
+    flex-direction: column;
+    border: none;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    gap: 1em;
+    margin: 0 auto;
+    color: rgba(56, 70, 83, 0.5);
+}
+
+button {
+    border: none;
+}
+
+input,
+textarea {
+    border: none;
+}
+
+#font-button {
+    font-size: 1em;
+}
+
+#contact-section > div:first-child {
+
+    margin-left: 8vh;
+
+}
+
+#contact-section a {
+
+    margin-right: 30vh;
+
+}
