@@ -2,9 +2,9 @@
 
     background-color: rgb(142, 252, 241);
     padding-left: 2%;
-    height: 20vh;
+    height: 30vh;
     padding-top: .5em;
-    margin: .5em;
+    margin: .9em;
     display: flex;
 
     align-items: center;
@@ -12,7 +12,7 @@
 }
 
 #contact-section h2 {
-    font-weight: 300;
+    font-weight: 800;
 }
 
 #contact-section h3 {
@@ -57,5 +57,11 @@ textarea {
 #contact-section a {
 
     margin-right: 30vh;
+
+}
+
+
+a {
+    color: rgb(93, 97, 130);
 
 }

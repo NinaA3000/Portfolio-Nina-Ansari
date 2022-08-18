@@ -35,6 +35,11 @@ form {
     color: rgba(56, 70, 83, 0.5);
 }
 
+form h3{
+
+    color: white;
+}
+
 button {
     border: none;
 }
