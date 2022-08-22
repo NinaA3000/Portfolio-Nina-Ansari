@@ -2,16 +2,19 @@
 
 #about-section {
 
-    background-color: rgb(42, 245, 225);
-  
+    background-color: rgb(42, 245, 225); 
     height: 30vh;
     padding-top: .5em;
     margin: .9em;
-
     display: flex;
-    justify-content: space-around;
     align-items: center;
     
+}
+
+#about-section>div:first-child {
+
+    margin-left: 8vh;
+
 }
 
 .about-section {
@@ -40,32 +43,35 @@
 
     object-fit: cover;
     height: 10%;
-    margin-left: 3%;
-    margin-right: 35%;
+    margin-left: 16%;
+    margin-right: 28%;
+
 }
 
 /* fonts */
 
 .about-container h3 {
-
-    font-size: 1.5em;
+    font-size: 1.7em;
     font-weight: 800;
-    color: rgb(93, 97, 130)
+    color: rgb(93, 97, 130);
+    margin-top: 5%;
+  
 }
 
 .about-section div h2 {
-    font-weight: 100;
-
+   
     color: rgb(93, 97, 130)
 }
 
 .about-container p {
-    margin-top: 1%;
+
+    margin-top: 2%;
     font-size: 12pt;
     font-weight: 300;
     color: rgb(93, 97, 130);
     margin-bottom: 1%;
-}
+} 
+
 
 /* image  */
 img {

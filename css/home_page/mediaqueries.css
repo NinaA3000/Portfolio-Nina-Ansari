@@ -1,0 +1,163 @@
+/* Mediaqueries */
+
+/* * desktop */
+@media screen and (min-width: 1280px) {}
+
+
+
+
+/* small desktop (769px - 1279px) */
+@media screen and (min-width: 769px) and (max-width: 1279px) {}
+
+/* tablet (481px - 768px) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+.work-container {
+
+    width: 30%;
+
+}
+.work-container img{
+    width: 100%;
+    height: auto;
+
+}
+header .header-content nav{
+width: 80%;
+}
+
+
+header h1 {
+
+    font-size: 3em;
+    letter-spacing: .07em;
+    text-align: center;
+    
+}
+
+h2 {
+
+    font-size: 1.5em;
+    text-align: center;
+    letter-spacing: .07em;
+
+}
+
+p {
+  
+    font-size: .9em;
+
+}
+
+h3 {
+
+    font-size: 1.2em;
+
+}
+
+
+.white-button-frame {
+    display: flex;
+    display: none;
+
+
+}
+}
+
+/* smartphone (0px - 480px) */
+@media screen and (max-width: 480px) {
+
+
+    .header-content a {
+
+        font-size: .7em;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .header-content {
+
+        flex-direction: column;
+
+    }
+
+    .header-content nav {
+
+        width: 100%;
+
+    }
+
+    header h1 {
+
+        font-size: 5em;
+        margin-top: 10%;
+        letter-spacing: .07em;
+        text-align: center;
+
+    }
+
+    h2 {
+
+        font-size: 7.9em;
+        text-align: center;
+        letter-spacing: .07em;
+
+    }
+
+    p {
+        display: flex;
+        display: none;
+
+    }
+
+    h3 {
+
+        font-size: 0em;
+
+    }
+
+    #home-description {
+
+        font-size: 12px;
+        margin-left: 8%;
+        margin-top: 3%;
+        margin-right: 5%;
+
+    }
+
+    .work-container img {
+
+        display: flex;
+        display: none;
+
+    }
+
+    .white-button-frame {
+
+        display: flex;
+        display: none;
+    }
+
+    .mail-container {
+
+        display: flex;
+        display: none;
+
+    }
+
+    .about-container {
+
+        display: flex;
+        display: none;
+
+    }
+
+    nav {
+
+        display: flex;
+        display: none;
+    }
+
+}

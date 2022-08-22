@@ -1,15 +1,18 @@
 #work-section {
 
     background-color: rgb(105, 253, 236);
-   
     height: 30vh;
     padding-top: .5em;
     margin: .9em;
-   padding-right: 6%;
     display: flex;
-    justify-content: space-around;
     align-items: center;
-   
+
+}
+
+#work-section>div:first-child {
+
+    margin-left: 8vh;
+
 }
 
 #work-section:hover {
@@ -23,10 +26,11 @@
 
 
 .work-container div {
+    
     object-fit: cover;
     height: 50%;
+   
 }
-
 
 
 .work-container {
@@ -36,6 +40,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
+    margin-left: 15%;
 
 }
 

@@ -64,3 +64,68 @@ textarea {
     margin-right: 30vh;
 
 }
+
+/* Mediaquerie */
+/* smartphone (0px - 480px) */
+@media screen and (max-width: 480px) {
+
+
+
+  header h1 {
+    font-size: 5.2em;
+    margin-top: 10%;
+    letter-spacing: .03em;
+    text-align: center;
+
+  }
+
+  .header-content a {
+
+    font-size: .7em;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+nav {
+    display: flex;
+    display: none;
+
+}
+
+
+header h1 {
+    font-size: 5em;
+    margin-top: 10%;
+    letter-spacing: .07em;
+    text-align: center;
+
+}
+
+form {
+
+    display: flex;
+    display: none;
+
+}
+
+h2 {
+  font-size: em;
+}
+
+div a {
+    margin-left: 13%;
+}
+
+
+
+#description {
+  font-size: .9em;
+}
+
+
+}
+

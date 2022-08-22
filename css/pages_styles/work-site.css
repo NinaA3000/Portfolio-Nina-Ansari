@@ -1,28 +1,31 @@
+/* work section site */
+
 #work-section {
 
     background-color: rgb(105, 253, 236);
     padding-left: 2%;
     height: 81vh;
-
     display: flex;
     margin: .5em;
-
     justify-content: space-around;
     align-items: center;
 
 }
 
+/* work container */
+
 .work-container a {
+
     font-size: 10pt;
     margin-top: 3%;
 }
 
 .work-container div {
+
     object-fit: cover;
     height: 80%;
-   
-}
 
+}
 
 .work-container {
 
@@ -34,16 +37,19 @@
     object-fit: cover;
     height: 40%;
     color: rgb(93, 97, 130);
-    
 
 }
 
+/* img */
+
 img {
+
     height: 100%;
 }
 
-.work-container h2,
-h3 {
+/* fonts */
+
+.work-container h2 {
 
     color: rgb(93, 97, 130);
     width: 55%;
@@ -61,4 +67,81 @@ h3 {
 
 }
 
+/* Mediaquerie */
+/* smartphone (0px - 480px) */
+@media screen and (max-width: 480px) {
 
+
+
+    header h1 {
+        font-size: 5.2em;
+        margin-top: 10%;
+        letter-spacing: .03em;
+        text-align: center;
+
+    }
+
+    .header-content a {
+
+        font-size: .7em;
+
+    }
+
+    .header-content {
+
+        flex-direction: column;
+
+    }
+
+    nav {
+
+        display: flex;
+        display: none;
+
+    }
+
+
+    header h1 {
+
+        font-size: 5em;
+        margin-top: 10%;
+        letter-spacing: .07em;
+        text-align: center;
+
+    }
+
+
+    a { font-size: .5em;
+
+    }
+
+    img {
+
+    width: 70%;
+    height: auto;
+    margin-left: 20%;
+
+    }
+
+    .work-container h2 a{
+        font-size: 1em;
+        margin-right: 6%;
+    }
+
+    .work-container h2 {
+
+            font-size: 1em;
+        
+    }
+
+    .about-container h3 {
+        font-size: 1.5em;
+    }
+
+
+    #description {
+        font-size: .9em;
+    }
+
+
+}
