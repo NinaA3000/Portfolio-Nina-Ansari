@@ -61,27 +61,4 @@ h3 {
 
 }
 
-#client-section {
-    background-color: rgb(105, 253, 236);
-    height: 10vh;
 
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-}
-
-.client-container h2,
-h3 {
-
-    color: rgb(93, 97, 130);
-    width: 100%;
-    font-weight: 800;
-
-}
-
-.client-container h3 {
-
-    padding-top: 1%;
-
-}

@@ -5,10 +5,19 @@
     height: 30vh;
     padding-top: .5em;
     margin: .9em;
-  
+   padding-right: 6%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+   
+}
+
+#work-section:hover {
+    
+    box-shadow: 3px 3px 3px 3px rgb(215, 219, 218); 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #2998f4;
 }
 
 
@@ -34,7 +43,4 @@ img {
     height: 100%;
 }
 
-.work-container h2, h3, a {
-    font-weight: 800;
-    font-size: 1.5em;
-}
+

@@ -1,17 +1,18 @@
+/* about section */
+
 #about-section {
 
     background-color: rgb(42, 245, 225);
-    padding-left: 6%;
+  
     height: 30vh;
     padding-top: .5em;
-
     margin: .9em;
+
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
-
-
 
 .about-section {
 
@@ -22,24 +23,32 @@
 
 }
 
+/* hover about section */
 
+#about-section:hover {
+
+    box-shadow: 3px 3px 3px 3px rgb(215, 219, 218); 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #2998f4;
+}
+
+
+/* about container */
 
 .about-container div {
+
     object-fit: cover;
-    height: 20%;
-    margin-left: 14%;
-    margin-right: 38%;
+    height: 10%;
+    margin-left: 3%;
+    margin-right: 35%;
 }
 
-
-img {
-    height: 100%;
-}
-
+/* fonts */
 
 .about-container h3 {
 
-    font-size: 12pt;
+    font-size: 1.5em;
     font-weight: 800;
     color: rgb(93, 97, 130)
 }
@@ -54,5 +63,11 @@ img {
     margin-top: 1%;
     font-size: 12pt;
     font-weight: 300;
-    color: rgb(93, 97, 130)
+    color: rgb(93, 97, 130);
+    margin-bottom: 1%;
+}
+
+/* image  */
+img {
+    height: 100%;
 }

@@ -8,30 +8,28 @@ Ich habe mir überlegt, wie ich dem user, Arbeitgeber oder Auftraggeber einen ei
 
 
 ### Wireframe 
-Danach habe ich eine wireframe gezeichnet für eine mobile- und desktop Ansicht.
+wireframe Ansichten für mobile- und desktop wurden mit Figma erstellt.
+
+
+![](assets/wireframedesktop.jpg)
+
+![](assets/wireframemobile.jpg)
 
 
 ### Farbpalette und Schriftwahl
  
- Vier helle Farben im blau-grün habe ich gewählt, weil diese eine fröhliche 
- und beruhigende Wirkug auf den Betrachter haben.
+ Vier helle Farben im blau-grün habe ich gewählt, weil diese eine fröhliche und beruhigende Wirkug auf den Betrachter haben.
 
  Die Schriftfarbe ist ein blaugrau, das mit der Farbpallete daher gut hamoniert. Roboto wurde als Schrift wegen ihrer guten Leserlichkeit gewählt.
 
+![](assets/portfolio-colorgraphy.jpg)
 
 ### Code schreiben
-Angefangen habe ich mit einer groben klassischen html-Struktur. Parallel diese Bereiche mit css grob gestaltet. Erste Media Query programmiert. Anschliessend habe ich alle verlinkungen und Ordnerstrukturen der Seiten festgelegt.
-Zum Schulß bin ich dann auf die Feinheiten in der Gestaltung eingegangen.
-
-(Bild einstellen)
+Angefangen habe ich mit einer groben klassischen html-Struktur. Parallel diese Bereiche mit css grob gestaltet. Erste Media Query programmiert. Anschliessend habe ich alle verlinkungen und Ordnerstrukturen der Seiten festgelegt. Zum Ende bin ich auf die Feinheiten der Gestaltung eingegangen und habe mit einem hover Effekt gearbeitet, um einzelne Abschnitte hervorzuheben.
 
 
+# screenshot homepage 
 
-## img einbinden Pfad hinterlegen
+![](assets/mobileview.png)
 
-
-
-Bilder in Assests einbinden
-
-
-# screenshot homepage einbinden
+![](assets/viewdesktop.png)

@@ -1,5 +1,5 @@
 
-/* Footer */
+/* footer */
 
 footer {
 
@@ -9,6 +9,7 @@ footer {
     align-items: center;
 
 }
+
 
 #stickyfooter {
 
@@ -28,16 +29,17 @@ footer ul li {
     font-weight: 300;
 
 }
+/* hover footer */
 
 #sticky-footer ul li:hover {
 
     background-position: right center;
-    /* change the direction of the change here */
     color: #fff;
     text-decoration: none;
 }
 
- 
+/* Instagram Logo */
+
 #hover-effect::before {
 	content:"\f08c";
     font-family: "FontAwesome";
