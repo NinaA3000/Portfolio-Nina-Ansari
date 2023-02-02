@@ -1,6 +1,6 @@
 # Portfoliopage
 Das ist mein Porfolio Homepage Projekt. 
-Sie dient dazu mein Netzwerk zu erweitern und meine Projekte als Web-Designerin zu präsentieren 
+Sie dient dazu mein Netzwerk zu erweitern und meine Projekte als Web-Designerin zu präsentieren.
 
 ## Workflow
 Ich habe mir überlegt, wie ich dem User, Arbeitgeber oder Auftraggeber einen einfachen und schnellen Einblick in meine bisherigen Projekte geben kann. 
